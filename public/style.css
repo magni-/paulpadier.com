@@ -224,7 +224,7 @@ footer span {
 /* small screen */
 
 @media
-(max-width: 640px) {
+(max-width: 800px) {
   .nav-a span {
     margin-left: 10px;
   }
@@ -297,7 +297,7 @@ footer span {
 /* large screen */
 
 @media
-(min-width: 641px) {
+(min-width: 801px) {
   .nav-a {
     width: 120px;
     text-align: center;

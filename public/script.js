@@ -1,5 +1,5 @@
 $(function() {
-  if (window.innerWidth >= 768) {
+  if (window.innerWidth >= 1024) {
     $(".nav-a span").addClass("hidden");
 
     $(".nav-a").hover(function() {
