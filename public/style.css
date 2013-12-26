@@ -221,6 +221,10 @@ footer span {
   color: #fff !important;
 }
 
+.clicky {
+  display: none;
+}
+
 /* small screen */
 
 @media
