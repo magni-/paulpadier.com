@@ -231,12 +231,10 @@ footer span {
 
   #links {
     float: left !important;
-    width: 40%;
     padding: Opx 0px 10px 20px;
   }
   #lead {
     float: right !important;
-    width: 50%;
     padding: 10px;
     text-align: right;
   }
