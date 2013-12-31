@@ -1,5 +1,7 @@
 {
   "vars": {
+    "@screen-sm-min": "640px",
+    "@screen-md-min": "1024px",
     "@grid-float-breakpoint": "@screen-md-min"
   },
   "css": [
