@@ -3,10 +3,6 @@ body {
   padding-top: 50px;
 }
 
-/*.img-logo {
-  max-width: 350px;
- }*/
-
 .navbar {
   background-color: #000;
 }
@@ -221,85 +217,122 @@ footer span {
   color: #fff !important;
 }
 
-.clicky {
+/* xs screen */
+
+.nav-a span {
+  margin-left: 10px;
+}
+
+#links {
+  width: 100%;
+  padding: 0px 15% 40px 20%;
+}
+#lead p {
+  display: block;
+  width: 75%;
+  margin: auto;
+  text-align: justify;
+  padding-bottom: 40px;
+}
+#me {
+  width: 100%;
+}
+#me img {
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px; 
+}
+
+section {
+  padding: 16px;
+}
+
+.section-title p {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ssr-left,
+.ssr-right {
+  margin: auto;
+}
+.ssr-left.ssr-text h2,
+.ssr-right.ssr-text h2,
+.ssr-left.ssr-text h5,
+.ssr-right.ssr-text h5
+{
+  text-align: center;
+}
+
+.center-mobile {
+  text-align: center !important;
+}
+
+.img-logo {
+  max-width: max(276px, 75%);
+ }
+
+.layover-bg {
   display: none;
 }
 
-/* small screen */
+.layover-container div {
+  margin-top: 18px;
+}
+
+.layover-text {
+  color: #333;
+  text-align: center;
+}
+
+.foot-left,
+.foot-right {
+  text-align: center;
+}
+
+/* sm screen */
 
 @media
-(max-width: 800px) {
-  .nav-a span {
-    margin-left: 10px;
+(min-width: 640px) {
+  #about .row {
+    width: 100%;
+    position: relative;
   }
-
   #links {
-    float: left !important;
-    padding: Opx 0px 10px 20px;
+    width: 50%;
+    padding: 0px 15% 40px 10%;
   }
-  #lead {
-    float: right !important;
-    padding: 10px;
-    text-align: right;
-  }
-  #me {
+  #lead p {
+    display: block;
     width: 75%;
     margin: auto;
+    text-align: justify;
+    padding-bottom: 40px;
   }
-
-  section {
-    padding: 16px;
+  #me {
+    position: absolute;
+    padding-right: 8%;
   }
-
-  .section-title p {
-    font-size: 48px;
-    font-weight: bold;
-    text-align: center;
-  }
-
-  .ssr-left,
-  .ssr-right {
-    margin: auto;
-  }
-  .ssr-left.ssr-text h2,
-  .ssr-right.ssr-text h2,
-  .ssr-left.ssr-text h5,
-  .ssr-right.ssr-text h5
-  {
-    text-align: center;
-  }
-
-  .center-mobile {
-    text-align: center !important;
-  }
-
-  .img-logo {
-    max-width: max(276px, 75%);
-   }
-
-  .layover-bg {
-    display: none;
-  }
-  
-  .layover-container div {
-    margin-top: 18px;
-  }
-
-  .layover-text {
-    color: #333;
-    text-align: center;
-  }
-
-  .foot-left,
-  .foot-right {
-    text-align: center;
+  #me img {
+    float: right !important;
+    display: block;
+    bottom: 0px;
+    width: 50%;
+    max-height: 330px;
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px; 
   }
 }
 
-/* large screen */
+/* md screen */
 
 @media
-(min-width: 801px) {
+(min-width: 1024px) {
   .nav-a {
     width: 120px;
     text-align: center;
@@ -309,20 +342,39 @@ footer span {
     font-size: 24px;
   }
 
+  #about {
+    padding: 48px 48px 48px 5%;
+  }
   #links {
-    margin-left: -96px;
+    width: 25%;
+    padding: 0%;
+  }
+  #lead {
+    float: left !important;
+    width: 50%;
+    padding: 0px 70px 0px 20px;
+  }
+  #lead p {
+    width: 100%;
   }
   #me {
-    float: right !important;
+    position: inherit;
+    width: 25%;
+    padding: 0%;
+  }
+  #me img {
+    width: 100%;
+    min-width: 200px;
   }
 
   section {
-    padding: 48px 192px;
+    padding: 48px 72px;
   }
 
   .section-title p {
     font-size: 72;
     font-weight: bold;
+    text-align: left;
   }
 
   .ssr-left {
@@ -339,6 +391,15 @@ footer span {
   }
   .ssr-right.ssr-text {
     padding-left: 50px;
+  }
+  .ssr-left.ssr-text h2,
+  .ssr-left.ssr-text h5
+  {
+    text-align: left;
+  }
+  .ssr-right.ssr-text h2,
+  .ssr-right.ssr-text h5 {
+    text-align: right;
   }
 
   .center-mobile {
@@ -362,6 +423,7 @@ footer span {
   }
 
   .layover-bg {
+    display: inherit;
     background-color: #000;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
@@ -382,5 +444,18 @@ footer span {
   .foot-right {
     float: right !important;
     text-align: right;
+  }
+}
+
+/* lg screen */
+
+@media
+(min-width: 1440px) {
+  #links {
+    margin-left: -96px;
+  }
+
+  section {
+    padding: 48px 192px;
   }
 }
