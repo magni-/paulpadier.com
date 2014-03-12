@@ -70,43 +70,43 @@ section {
   color: #fff;
 }
 
-#school {
+#work {
   background-color: #8bf;
 }
 
-#school .section-title {
+#work .section-title {
   color: #458;
 }
 
-#school img {
+#work img {
   border: 12px solid #68c;
 }
 
-.navbar ul li .nav-school {
-  color: #8bf;
-}
-
-.navbar ul li .nav-school:hover {
-  color: #8bf;
-}
-
-#work {
-  background-color: #fe6;
-}
-
-#work .section-title {
-  color: #873;
-}
-
-#work img {
-  border: 12px solid #cb5;
-}
-
 .navbar ul li .nav-work {
-  color: #fe6;
+  color: #8bf;
 }
 
 .navbar ul li .nav-work:hover {
+  color: #8bf;
+}
+
+#school {
+  background-color: #fe6;
+}
+
+#school .section-title {
+  color: #873;
+}
+
+#school img {
+  border: 12px solid #cb5;
+}
+
+.navbar ul li .nav-school {
+  color: #fe6;
+}
+
+.navbar ul li .nav-school:hover {
   color: #fe6;
 }
 
