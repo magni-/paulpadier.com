@@ -347,7 +347,7 @@ section {
   }
   #links {
     width: 25%;
-    padding: 0%;
+    padding: 0px 72px 0px 96px;
   }
   #lead {
     float: left !important;
