@@ -170,7 +170,7 @@ footer {
 
 footer i,
 footer span {
-  margin: 5px; 
+  margin: 5px;
 }
 
 #carousel {
@@ -198,7 +198,7 @@ footer span {
 
 .carousel-linked-nav,
 .item img {
-  display: block; 
+  display: block;
   margin: 0px auto;
 }
 
@@ -243,7 +243,7 @@ footer span {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 
 section {
@@ -326,7 +326,7 @@ section {
     max-width: 330px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
   }
 }
 
